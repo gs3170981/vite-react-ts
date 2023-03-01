@@ -1,5 +1,5 @@
 import { Progress, Button } from 'antd';
-import { connect } from 'react-redux';
+// import { connect } from 'react-redux';
 // import { mapStateToProps } from '../../store';
 import { Link } from 'react-router-dom';
 import { actions } from '../react-gredux';

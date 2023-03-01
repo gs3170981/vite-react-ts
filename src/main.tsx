@@ -1,9 +1,9 @@
-import React from 'react';
+// import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './pages/redux-1/App';
 
 import { BrowserRouter } from 'react-router-dom';
-import { Provider } from 'react-redux';
+// import { Provider } from 'react-redux';
 // import { createStore } from 'redux';
 // import rootReducer from './pages/redux-1/redux-1/store/index';
 // import storeData from './pages/redux-1/store/store';
