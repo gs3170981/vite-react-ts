@@ -1,13 +1,16 @@
 // import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './pages/redux-1/App';
+// import App from './pages/redux-1/App';
+import App from './pages/redux-2/App';
 
 import { BrowserRouter } from 'react-router-dom';
 // import { Provider } from 'react-redux';
 // import { createStore } from 'redux';
 // import rootReducer from './pages/redux-1/redux-1/store/index';
 // import storeData from './pages/redux-1/store/store';
-import { GsProvider } from './pages/redux-1/react-gredux';
+
+import stores from './pages/redux-2/store';
+import { ProviderG } from './pages/redux-2/react-reduxg';
 
 import './index.css';
 
@@ -26,13 +29,9 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <BrowserRouter>
-    {/* <Provider store={store}>
+    <ProviderG store={stores}>
       <App />
-    </Provider> */}
-    <GsProvider>
-      <App />
-    </GsProvider>
-    {/* <App /> */}
+    </ProviderG>
   </BrowserRouter>,
 );
 
