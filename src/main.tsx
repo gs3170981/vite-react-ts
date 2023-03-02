@@ -1,7 +1,7 @@
 // import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import App from './pages/redux-1/App';
-import App from './pages/redux-2/App';
+import App from './pages/redux-3/App';
 
 import { BrowserRouter } from 'react-router-dom';
 // import { Provider } from 'react-redux';
@@ -9,8 +9,9 @@ import { BrowserRouter } from 'react-router-dom';
 // import rootReducer from './pages/redux-1/redux-1/store/index';
 // import storeData from './pages/redux-1/store/store';
 
-import stores from './pages/redux-2/store';
-import { ProviderG } from './pages/redux-2/react-reduxg';
+import stores from './pages/redux-3/store';
+import takeEverySaga from './pages/redux-3/storeMiddleware';
+import { ProviderG } from './pages/redux-3/react-reduxg';
 
 import './index.css';
 
